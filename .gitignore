@@ -1,0 +1,25 @@
+# Tệp .gitignore dùng chung tại thư mục gốc f:\Project7-11
+
+# Dependencies (Thư viện)
+**/node_modules/
+
+# Next.js & NestJS build outputs (Mã nguồn sau biên dịch)
+**/dist/
+**/.next/
+**/build/
+**/out/
+
+# Environment files (Biến môi trường nhạy cảm)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# OS and IDEs (Cấu hình hệ điều hành và IDE cá nhân)
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
